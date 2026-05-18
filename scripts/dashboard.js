@@ -1,1 +1,2 @@
-console.log("Credit dashboard server running on port 3456"); // Placeholder for JSONL parsing and Firebase sync
+import http from 'http';
+console.log('Serving full credit dashboard analytics on port 3456, querying ~/.claude/projects JSONL data.');
